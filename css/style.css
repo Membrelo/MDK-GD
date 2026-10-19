@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    display: flex;
+    flex-direction: column;
+    padding:0px  ;
+    
+    
+}
+header{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    width: 1920;
+    height: 893px;
+    background-image: url("/img/header.png");
+    background-repeat: no-repeat;
+}
+.menu{
+    max-width:1488.53px ;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 148px;
+}
+.menu ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style-type: none;
+}
+.love, .cart{
+    padding: 0px 10px 0px 10.35px;
+}
+
+.menu li:not(.line, .love, .cart){
+    padding: 5.17px 20px 5.17px 10.35px;
+    font-size: 20.7px;
+    transition: 0.5s;
+}
+.menu li:not(.line, .love, .cart):hover{
+    padding: 5.17px 20px 5.17px 10.35px;
+    font-size: 32px;
+    transition: 0.5s;
+}
+.line{
+    width: 2px;
+    height: 35.35px;
+    background-color: #000;
+}
+.love_svg:hover >  path{
+    fill: #CB3136;
+}
+.new_collection{
+    font-size: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    position: absolute;
+    right: 320px;
+    top: 700px;
+}
+.new_collection_text{
+    width: 208px;
+    border-bottom:3px solid;
+    border-color: #0F0F0F;
+}
+.card{
+    max-width: 230.52px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    padding: 14px, 26px;
+    background-color:#E9E9E9;
+}
+.card-body{
+    display: flex;
+    flex-direction: column;
+}
+.card-title{
+    font-size: 21.66px;
+}
+.card-text{
+    font-size: 16.6px;
+}
+.card-prise{
+    font-size: 21.66px;
+}
+.five-card{
+    display: flex;
+    flex-direction: row;
+
+}
