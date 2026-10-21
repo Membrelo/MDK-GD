@@ -1,3 +1,20 @@
+
+@font-face {
+    font-family: "PalanquinDark-Bold";
+    src: url(palanquin-dark/PalanquinDark-Bold.ttf);
+}
+@font-face {
+    font-family: "PalanquinDark-Medium";
+    src: url(palanquin-dark/PalanquinDark-Medium.ttf);
+}
+@font-face {
+    font-family: "PalanquinDark-Regular";
+    src: url(palanquin-dark/PalanquinDark-Regular.ttf);
+}
+@font-face {
+    font-family: "PalanquinDark-SemiBold";
+    src: url(palanquin-dark/PalanquinDark-SemiBold.ttf);
+}
 *{
     margin: 0;
     padding: 0;
@@ -7,7 +24,7 @@ body{
     display: flex;
     flex-direction: column;
     padding:0px  ;
-    
+    font-family: "PalanquinDark-Bold", Arial, sans-serif;
     
 }
 header{
@@ -16,8 +33,9 @@ header{
     align-items:center;
     width: 1920;
     height: 893px;
-    background-image: url("/img/header.png");
+    background-image: url("/MDK-GD-main/img/header.png");
     background-repeat: no-repeat;
+    font-family: "PalanquinDark-Bold", Arial, sans-serif;
 }
 .menu{
     max-width:1488.53px ;
@@ -40,6 +58,7 @@ header{
     padding: 5.17px 20px 5.17px 10.35px;
     font-size: 20.7px;
     transition: 0.5s;
+    
 }
 .menu li:not(.line, .love, .cart):hover{
     padding: 5.17px 20px 5.17px 10.35px;
@@ -56,6 +75,7 @@ header{
 }
 .new_collection{
     font-size: 40px;
+    
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -68,6 +88,13 @@ header{
     width: 208px;
     border-bottom:3px solid;
     border-color: #0F0F0F;
+    font-family: "PalanquinDark-Bold", Arial, sans-serif;
+}
+.podhodit_dly_vas_text{
+    width: 208px;
+    border-color: #0F0F0F;
+    font-family: "PalanquinDark-Bold", Arial, sans-serif;
+    font-size: 48px;
 }
 .card{
     max-width: 230.52px;
@@ -85,12 +112,16 @@ header{
 }
 .card-title{
     font-size: 21.66px;
+    font-family: "PalanquinDark-Bold", Arial, sans-serif;
 }
 .card-text{
     font-size: 16.6px;
+    font-family: "PalanquinDark-Medium", Arial, sans-serif;
+    color: #9d9d9d;
 }
 .card-prise{
     font-size: 21.66px;
+    font-family: "PalanquinDark-SemiBold", Arial, sans-serif;
 }
 .five-card{
     display: flex;
